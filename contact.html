@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kohe Shimokawa</title>
+  <link rel="shortcut icon" href="img/account_circle_black_36dp.svg">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style_contact.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <a href="index.html"><img src="img/header_logo.png" alt="ヘッダーロゴ" class="header_img_logo"></a>
+      <nav>
+          <ul class="header_content">
+            <li class="header_title_en"><a href="index.html">Home</a></li>
+            <li class="header_title_en"><a href="profile.html">Profile</a></li>
+            <li class="header_title_en"><a href="reserch.html">Reserch</a></li>
+            <li class="header_title_en"><a href="media.html">Media</a></li>
+            <li class="header_title_en"><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+
+<!-- ここからメインコンテンツ -->
+  <main>
+    <!-- 全ページ共通 -->
+    <div>
+      <img src="img/head_image.png" alt="ガラス器具の写真" class="common_head_image">
+    </div>
+    <!-- ここまで共通 -->
+
+    <section id="CONTACT">
+      <div class="contact_message">
+        <h1 class="contact-title">CONTACT</h1>
+        <p class="contact-1">下川航平に興味がある方は、お気軽にお問い合わせ下さい。お待ちしております。</p>
+      </div>
+
+      <div class="form-wrapper">
+        <form action="#" class="form-layout">
+          <dl class="form-inner">
+            <dt class="form-title">名前</dt>
+            <dd class="form-parts"><input type="text" name="name" id="name" class="form-parts-input"></dd>
+
+            <dt class="form-title">カナ</dt>
+            <dd class="form-parts"><input type="text" name="name" id="kana" class="form-parts-input"></dd>
+            
+            <dt class="form-title">メールアドレス</dt>
+            <dd class="form-parts"><input type="email" name="email" id="email" class="form-parts-input"></dd>
+            
+            <dt class="form-title">下川航平を知ったきっかけ</dt>
+            <dd class="form-parts">            
+              <select class="form-parts-input">
+                <option>学会</option>
+                <option>webサイト</option>
+                <option>論文</option>
+                <option>大学関係</option>
+              </select>
+            </dd>
+            
+            <dt class="form-title">目的</dt>
+            <dd class="form-parts">
+              <label><input type="checkbox" value="1">メディア関係</label>
+              <label><input type="checkbox" value="2">プロジェクトのお誘い</label>
+              <label><input type="checkbox" value="3">学生からの質問</label>
+              <label><input type="checkbox" value="4">その他</label>
+            </dd>
+            
+            <dt class="form-title">詳細</dt>
+            <dd class="form-parts">
+              <textarea name="detail" id="detail" cols="42" rows="10"></textarea>
+            </dd>
+          </dl>
+        <input type="submit" value="送信" class="button-perple send-info">
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ここからフッター -->
+  <footer>
+    <small class="footer_layout">copyrights 2022 Kohei Shimokawa All RIghts Reserved.</small>
+  </footer>
+</body>
+</html>

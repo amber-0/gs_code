@@ -1,0 +1,272 @@
+ページ
+
+ヘッダーロゴ
+
+ホーム
+Home
+
+プロフィール
+Profile
+
+研究内容
+Reserch
+
+メディア
+Media
+
+連絡
+Contact
+
+
+Home
+
+junbotronの画像配置
+生命と工学の共生
+自然と人間の共生
+未来の基盤構築
+
+
+研究概要
+
+我々は地球上に住み、様々なエネルギーを利用して日々の活動を行っていますが、
+この地球という系に与えられるほぼ唯一のエネルギー源は太陽光です。
+したがって、太陽光のエネルギーを「如何にして蓄え、そして利用するのか」と
+いうことが、持続可能社会を実現するために重要なポイントになります。
+
+画像1
+
+私はこれまで、マグネシウムなどの多価イオンを利用した次世代蓄電池に関する基礎研究
+を行ってきました。蓄電池とは人工的なエネルギー変換システムであり、電気エネルギー
+と化学的なエネルギーを相互に変換することができます。一方で、自然界には太陽光の
+エネルギーを化学的なエネルギーに変換する光合成というシステムがあります。これからは、
+蓄電池と光合成は同類のシステムとして理解できるという着眼点から、①両者を組み合わせた
+革新的エネルギー変換/貯蔵デバイス開発および②バイオ-理工融合のエネルギー変換のための
+基礎学理構築を両輪とした研究を推進します。
+
+画像2
+
+環境・エネルギーの問題とは「生命と工学の共生」に対する問いであり、その回答には学際的な
+アプローチが必要不可欠になると私は考えています。アプローチが必要不可欠になると私は
+考えています。環境調和性や持続可能性をキーワードとして、デバイス開発と学理構築の両面
+からバイオ-理工融合のエネルギー変換に関する研究分野を切り拓き、生命(自然)と工学(人間)
+が共生する未来の基盤構築を目指します。
+
+画像3
+
+
+
+Profile
+
+下川航平
+Kohei Shimokawa
+
+所属
+東北大学 学際科学フロンティア研究所 新領域創成研究部 助教
+金属材料研究所 先端・萌芽研究部門(兼務)
+
+学位
+博士(工学) 2020年3月 東北大学
+修士(工学) 2017年3月 京都大学
+
+研究者番号
+30876719
+
+J-GLOBAL ID
+20200100496518463
+
+ORCID ID
+https://orcid.org/0000-0003-3261-9679
+
+researchmap会員ID
+R000002452
+
+経歴
+2022年2月 - 現在東北大学 プロミネントリサーチフェロー 
+2021年4月 - 現在物質・材料研究機構（NIMS） 国際ナノアーキテクトニクス研究拠点 客員研究者 
+2020年4月 - 現在東北大学 学際科学フロンティア研究所 新領域創成研究部 助教 
+2020年4月 - 現在東北大学 金属材料研究所 先端・萌芽研究部門（兼務） 
+2017年4月 - 2020年3月日本学術振興会特別研究員（DC1） 
+
+学歴
+2017年4月 - 2020年3月東北大学 工学研究科 金属フロンティア工学専攻（博士課程） 
+2015年4月 - 2017年3月京都大学 工学研究科 材料工学専攻（修士課程） 
+2011年4月 - 2015年3月京都大学 工学部 物理工学科 
+
+趣味
+哲学、ポエム
+～めっちゃ長い下川のポエムを入れる～
+
+
+
+Reserch
+受賞
+2022年3月トーキン科学技術賞 「高エネルギー密度マグネシウム蓄電池に道を拓くスピネル型酸化物正極材料の開発」 
+下川 航平
+2021年10月Poster Award (The 5th Symposium for the Core Research Clusters for Materials Science and Spintronics) 
+Kohei Shimokawa
+2021年9月まてりあ論文賞 「多価カチオンを利用した新型蓄電デバイス開発に向けた基礎的研究」 日本金属学会 
+李 弘毅, 下川 航平, 岡本 範彦, 市坪 哲
+2020年3月優秀学生発表賞 電気化学会 (第87回大会) 
+下川 航平
+2019年9月優秀ポスター賞 日本固体イオニクス学会 (第15回固体イオニクスセミナー) 
+下川 航平
+
+論文
+論文  11
+Biogenic Mn2O3 via the redox of Shewanella oneidensis MR-1 for peroxymonosulfate advanced oxidation 
+Xizi Long, Hongrui Zhang, Xian Cao, Hui Wang, Kohei Shimokawa, Huimei Chi, Chengming Zhang, Akihiro Okamoto, Xianning Li
+Separation and Purification Technology 303 122144-122144 2022年  査読有り
+Light-induced Li extraction from LiMn2O4/TiO2 in a water-in-salt electrolyte for photo-rechargeable batteries 
+Kohei Shimokawa, Shogo Matsubara, Akihiro Okamoto, Tetsu Ichitsubo
+Chemical Communications 58(69) 9634-9637 2022年  査読有り筆頭著者
+Accelerated Kinetics Revealing Metastable Pathways of Magnesiation-Induced Transformations in MnO2 Polymorphs 
+Takuya Hatakeyama, Hongyi Li, Norihiko L. Okamoto, Kohei Shimokawa, Tomoya Kawaguchi, Hiroshi Tanimura, Susumu Imashuku, Maximilian Fichtner, Tetsu Ichitsubo
+Chemistry of Materials 33 6983-6996 2021年  査読有り
+Electrochemically synthesized liquid-sulfur/sulfide composite materials for high-rate magnesium battery cathodes 
+Kohei Shimokawa, Takuya Furuhashi, Tomoya Kawaguchi, Won-Young Park, Takeshi Wada, Hajime Matsumoto, Hidemi Kato, Tetsu Ichitsubo
+Journal of Materials Chemistry A 9(30) 16585-16593 2021年  査読有り筆頭著者
+Structure Design of Long‐Life Spinel‐Oxide Cathode Materials for Magnesium Rechargeable Batteries 
+Kohei Shimokawa, Taruto Atsumi, Norihiko L. Okamoto, Tomoya Kawaguchi, Susumu Imashuku, Kazuaki Wagatsuma, Masanobu Nakayama, Kiyoshi Kanamura, Tetsu Ichitsubo
+Advanced Materials 33(7) 2007539-2007539 2021年  査読有り筆頭著者
+Spinel–rocksalt transition as a key cathode reaction toward high-energy-density magnesium rechargeable batteries 
+Kohei Shimokawa, Tetsu Ichitsubo
+Current Opinion in Electrochemistry 21 93-99 2020年  査読有り招待有り筆頭著者
+Electrochemical phase transformation accompanied with Mg extraction and insertion in a spinel MgMn2O4 cathode material 
+Takuya Hatakeyama, Norihiko L. Okamoto, Kohei Shimokawa, Hongyi Li, Aiko Nakao, Yoshiharu Uchimoto, Hiroshi Tanimura, Tomoya Kawaguchi, Tetsu Ichitsubo
+Physical Chemistry Chemical Physics 21(42) 23749-23757 2019年  査読有り
+Zinc-based spinel cathode materials for magnesium rechargeable batteries: toward the reversible spinel–rocksalt transition 
+Kohei Shimokawa, Taruto Atsumi, Maho Harada, Robyn E. Ward, Masanobu Nakayama, Yu Kumagai, Fumiyasu Oba, Norihiko L. Okamoto, Kiyoshi Kanamura, Tetsu Ichitsubo
+Journal of Materials Chemistry A 7(19) 12225-12235 2019年  査読有り筆頭著者
+Feasible transformation of MgCo2O4 from spinel to defect rocksalt structure under electron irradiation 
+Okamoto, Norihiko L, Shimokawa, Kohei, Tanimura, Hiroshi, Ichitsubo, Tetsu
+Scripta Materialia 167 26-30 2019年  査読有り
+Solvation-Structure Modification by Concentrating Mg(TFSA)2-MgCl2-Triglyme Ternary Electrolyte 
+Shimokawa, Kohei, Matsumoto, Hajime, Ichitsubo, Tetsu
+The journal of physical chemistry letters 9(16) 4732-4737 2018年  査読有り筆頭著者
+Intercalation and Push-Out Process with Spinel-to-Rocksalt Transition on Mg Insertion into Spinel Oxides in Magnesium Batteries 
+Okamoto, Shinya, Ichitsubo, Tetsu, Kawaguchi, Tomoya, Kumagai, Yu, Oba, Fumiyasu, Yagi, Shunsuke, Shimokawa, Kohei, Goto, Natsumi, Doi, Takayuki, Matsubara, Eiichiro
+Advanced Science 2(8) 1500072 2015年  査読有り
+
+MISC
+マグネシウム蓄電池用正極材料の開発経緯と現状 
+下川航平, 岡本範彦, 市坪哲
+セラミックス 56(5) 331-336 2021年5月  
+多価カチオンを利用した新型蓄電デバイス開発に向けた基礎的研究 
+李弘毅, 下川航平, 岡本範彦, 市坪 哲
+まてりあ 59(8) 413-421 2020年8月1日  
+ロッキングチェア型Mg‐Liデュアルソルト蓄電池研究:イオン液体を用いた電極材料研究 
+市坪哲, 李弘毅, 下川航平, 八木俊介, 松原英一郎
+溶融塩および高温化学 60(1) 16‐22-22 2017年1月27日  
+
+講演・口頭発表等
+How to Design High-Performance Spinel-Oxide Cathode Materials for Next-Generation Rechargeable Batteries 
+K. Shimokawa, T. Ichitsubo
+The 5th Symposium for the Core Research Clusters for Materials Science and Spintronics 2021年10月25日
+
+A Defect Spinel Cathode Material for Long-Life and High-Energy-Density Magnesium Rechargeable Batteries 
+K. Shimokawa, T. Atsumi, N. L. Okamoto, T. Kawaguchi, M. Nakayama, K. Kanamura, T. Ichitsubo
+239th ECS Meeting 2021年5月30日
+
+高出力Mg蓄電池を目指した液体S/FeS2複合正極のその場合成 
+古橋卓弥, 下川航平, 河口智也, 和田武, 加藤秀実, 市坪哲
+電気化学会東北支部 第51回セミコンファレンス・第33回若手の会 2020年12月5日
+
+Towards development of rechargeable storage batteries using Mg cations 
+T. Ichitsubo, K. Shimokawa, H. Li, N. L. Okamoto
+3rd International Symposium on Magnesium Batteries 2020年9月8日
+
+欠陥スピネル型構造に着目した高サイクル特性を有する新規Mg蓄電池正極材料の開発 
+下川 航平, 河口 智也, 谷村 洋, 岡本 範彦, 市坪 哲
+電気化学会第87回大会 2020年3月19日
+
+欠陥スピネル型酸化物に着目した新規Mg蓄電池正極材料の開発 
+下川 航平, 河口 智也, 谷村 洋, 岡本 範彦, 市坪 哲
+第45回 固体イオニクス討論会 2019年11月28日
+
+高性能Mg蓄電池を目指したスピネル型酸化物正極の設計指針の構築 
+下川 航平, 中山 将伸, 熊谷 悠, 大場 史康, 岡本 範彦, 金村 聖志, 市坪 哲
+日本金属学会 2019年秋期大会（第165回） 2019年9月11日
+
+高サイクル特性と高エネルギー密度を両立するMg蓄電池用スピネル型正極材料の開発 
+下川 航平, 岡本 範彦, 市坪 哲
+第15回 固体イオニクスセミナー 2019年9月1日
+
+Zn-based Spinel-Oxide Materials Showing Reversible Spinel–Rocksalt Transition for High-Energy-Density Magnesium Rechargeable Batteries 
+K. Shimokawa, M. Nakayama, Y. Kumagai, F. Oba, N. L. Okamoto, K. Kanamura, T. Ichitsubo
+70th Annual Meeting of ISE 2019年8月5日
+
+Design Guidelines for Spinel Cathode Materials Undergoing Spinel–Rocksalt Transition in Magnesium Rechargeable Batteries 
+K. Shimokawa, M. Nakayama, Y. Kumagai, F. Oba, N. L. Okamoto, K. Kanamura, T. Ichitsubo
+Energy Storage and Industry 4.0 2019年7月31日
+
+マグネシウム蓄電池用スピネル型酸化物正極の設計指針の構築 
+下川 航平, 岡本 範彦, 市坪 哲
+第137回 金属材料研究所講演会 2019年5月29日
+
+Mg(TFSA)2-MgCl2/Triglyme電解液の溶媒和構造制御によるMg金属アノード溶解特性の向上 
+下川 航平, 松本 一, 市坪 哲
+電気化学会 第86回大会 2019年3月29日
+
+Highly Concentrated Mg(TFSA)2–MgCl2–Triglyme Electrolytes Toward High Potential Mg Rechargeable Batteries 
+K. Shimokawa, H. Matsumoto, T. Ichitsubo
+AiMES2018 / 234th ECS Meeting 2018年10月4日
+
+スピネル型酸化物を用いた中温作動型マグネシウム蓄電池の開発 
+下川 航平, 金村 聖志, 市坪 哲
+日本金属学会 2018年秋期大会（第163回） 2018年9月19日
+
+スピネル型酸化物正極を用いた高エネルギー密度マグネシウム蓄電池の開発 
+下川 航平, 市坪 哲
+第14回 固体イオニクスセミナー（若手依頼講演） 2018年9月3日
+
+中温作動型マグネシウム蓄電池の開発を目指した新規三元系溶媒和イオン液体の研究 
+下川 航平, 市坪 哲
+第134回 金属材料研究所講演会 2017年11月29日
+
+Magnesium-Free Spinel Oxides for Cathode Materials of Magnesium Rechargeable Batteries 
+K. Shimokawa, T. Kawaguchi, Y. Kumagai, F. Oba, S. Yagi, T. Ichitsubo
+232nd ECS meeting 2017年10月4日
+
+Spinel-to-Rocksalt Transition on Mg Insertion into Spinel-Oxide Cathodes in Magnesium Rechargeable Batteries 
+K. Shimokawa, S. Okamoto, T. Kawaguchi, Y. Kumagai, F. Oba, S. Yagi, E. Matsubara, T. Ichitsubo
+PRiME 2016 / 230th ECS Meeting 2016年10月4日
+
+
+Media
+”脱リチウム”電池時代到来 エネルギー密度10倍も視野に（内 pp75-76） 
+日経エレクトロニクス 2022年4月 新聞・雑誌
+
+Mg蓄電池 正極材開発に力 
+化学工業日報 7面 2021年8月27日 新聞・雑誌
+
+東北大学研究グループ、Mg蓄電池高性能化へ新たな指針 
+日刊自動車新聞 裏1面 2021年1月25日 新聞・雑誌
+
+youtube埋め込む
+
+
+
+
+Contact
+氏名
+カナ
+メールアドレス
+下川航平を知ったきっかけ
+　・学会
+　・webサイト
+　・論文
+　・大学関係
+目的
+　・メディア関係
+　・プロジェクトのお誘い
+　・学生からの質問
+　・その他
+詳細
+送信ボタン
+
+
+
+copyrights 2022 Kohei Shimokawa All RIghts Reserved.
+
+
+
