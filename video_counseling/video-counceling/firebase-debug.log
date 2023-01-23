@@ -1,0 +1,79 @@
+[debug] [2022-12-16T12:52:52.184Z] ----------------------------------------------------------------------
+[debug] [2022-12-16T12:52:52.187Z] Command:       C:\Users\ogino\AppData\Local\fnm_multishells\4208_1671194771604\node.exe C:\Users\ogino\AppData\Local\fnm_multishells\4208_1671194771604\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-16T12:52:52.188Z] CLI Version:   11.16.1
+[debug] [2022-12-16T12:52:52.188Z] Platform:      win32
+[debug] [2022-12-16T12:52:52.189Z] Node Version:  v18.2.0
+[debug] [2022-12-16T12:52:52.193Z] Time:          Fri Dec 16 2022 21:52:52 GMT+0900 (GMT+09:00)
+[debug] [2022-12-16T12:52:52.193Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-16T12:52:52.210Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-16T12:52:52.456Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-16T12:52:52.457Z] > authorizing via signed-in user (takahio.ogino@gmail.com)
+[debug] [2022-12-16T12:52:52.457Z] [iam] checking project fir-rtc-79a9e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-16T12:52:52.459Z] > refreshing access token with scopes: []
+[debug] [2022-12-16T12:52:52.461Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-16T12:52:52.461Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-16T12:52:52.920Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-16T12:52:52.921Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-16T12:52:52.958Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-79a9e:testIamPermissions [none]
+[debug] [2022-12-16T12:52:52.958Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-79a9e:testIamPermissions x-goog-quota-user=projects/fir-rtc-79a9e
+[debug] [2022-12-16T12:52:52.959Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-79a9e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-16T12:52:53.004Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-12-16T12:52:53.005Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-12-16T12:52:54.763Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-79a9e:testIamPermissions 200
+[debug] [2022-12-16T12:52:54.763Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-79a9e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-16T12:52:54.764Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-79a9e [none]
+[debug] [2022-12-16T12:52:55.349Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-79a9e 200
+[debug] [2022-12-16T12:52:55.350Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-79a9e {"projectId":"fir-rtc-79a9e","projectNumber":"43971938670","displayName":"video-counceling","name":"projects/fir-rtc-79a9e","resources":{"hostingSite":"fir-rtc-79a9e"},"state":"ACTIVE","etag":"1_1ee875d0-3f55-4732-9ec5-0a27cfec42b5"}
+[info] 
+[info] === Deploying to 'fir-rtc-79a9e'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-12-16T12:55:44.621Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions [none]
+[debug] [2022-12-16T12:55:44.621Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-12-16T12:55:46.063Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions 200
+[debug] [2022-12-16T12:55:46.063Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions {"name":"projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[fir-rtc-79a9e]: beginning deploy... 
+[info] i  hosting[fir-rtc-79a9e]: found 6 files in build 
+[debug] [2022-12-16T12:55:46.074Z] [hosting] uploading with 200 concurrency
+[debug] [2022-12-16T12:55:46.092Z] [hosting] hash cache [YnVpbGQ] stored for 6 files
+[debug] [2022-12-16T12:55:46.093Z] [hosting][hash queue][FINAL] {"max":1,"min":1,"avg":1,"active":0,"complete":6,"success":6,"errored":0,"retried":0,"total":6,"elapsed":6}
+[debug] [2022-12-16T12:55:46.094Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9:populateFiles [none]
+[debug] [2022-12-16T12:55:46.094Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9:populateFiles {"files":{"/404.html":"daa499dd96d8229e73235345702ba32f0793f0c8e5c0d30e40e37a5872be57aa","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49"}}
+[debug] [2022-12-16T12:55:47.004Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9:populateFiles 200
+[debug] [2022-12-16T12:55:47.004Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/fir-rtc-79a9e/versions/895869e55a51f5d9/files"}
+[debug] [2022-12-16T12:55:47.004Z] [hosting][populate queue][FINAL] {"max":915,"min":915,"avg":915,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":915}
+[debug] [2022-12-16T12:55:47.004Z] [hosting] uploads queued: 0
+[debug] [2022-12-16T12:55:47.004Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1671195347004}
+[info] +  hosting[fir-rtc-79a9e]: file upload complete 
+[debug] [2022-12-16T12:55:47.007Z] [hosting] deploy completed after 941ms
+[debug] [2022-12-16T12:55:47.011Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "fir-rtc-79a9e"
+    },
+    "version": "projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9"
+  }
+]
+[info] i  hosting[fir-rtc-79a9e]: finalizing version... 
+[debug] [2022-12-16T12:55:47.014Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions/895869e55a51f5d9 updateMask=status%2Cconfig
+[debug] [2022-12-16T12:55:47.014Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions/895869e55a51f5d9 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2022-12-16T12:55:48.273Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions/895869e55a51f5d9 200
+[debug] [2022-12-16T12:55:48.273Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/versions/895869e55a51f5d9 {"name":"projects/43971938670/sites/fir-rtc-79a9e/versions/895869e55a51f5d9","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-12-16T12:55:46.049797Z","createUser":{"email":"takahio.ogino@gmail.com"},"finalizeTime":"2022-12-16T12:55:48.692264Z","finalizeUser":{"email":"takahio.ogino@gmail.com"}}
+[debug] [2022-12-16T12:55:48.273Z] [hosting] finalized version for fir-rtc-79a9e:[object Object]
+[info] +  hosting[fir-rtc-79a9e]: version finalized 
+[info] i  hosting[fir-rtc-79a9e]: releasing new version... 
+[debug] [2022-12-16T12:55:48.279Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/channels/live/releases versionName=projects%2F43971938670%2Fsites%2Ffir-rtc-79a9e%2Fversions%2F895869e55a51f5d9
+[debug] [2022-12-16T12:55:48.279Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/fir-rtc-79a9e/channels/live/releases {}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>G's ACADEMY EXAM</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.svg" alt="ジーズアカデミーのロゴ" style="width:200px; margin:10px">
+    </header>
+
+    <main>
+
+        <!-- シーン1（タイトル） -->
+        <div id="scene1">
+            <h1 style="font-family:Yu Mincho;font-size:80px;text-align: center;margin-top:100px;line-height: 1.5;">
+                ジーズアカデミー<br>DEV25期入学試験</h1>
+            <div class="btn_wrapper"><a href="#" id="scene2_se_play" class="scene1_btn btn">試験を受ける</a></div>
+        </div>
+
+        <!-- シーン2（世界を変えるギ―クになろう） -->
+        <div id="scene2">
+            <h1 class="change_world_geek" style="font-family:Yu Mincho;font-size:80px;text-align: center;margin-top:200px;visibility:hidden;">
+                世界を変えるギークになろう</h1>
+            <div class="btn_wrapper">
+                <a href="#" class="scene2_btn btn">本当に試験を受ける</a>
+            </div>
+            <audio id="scene2_se" source src="se/keyboard_sound.mp3"></audio>
+        </div>
+
+        <!-- シーン3（第一戦） -->
+        <div id="scene3" class="scene3_bg_img" style="width: 1280px;x;height:518px;">
+            <div>
+                <img src="img/kodama_founder.png" class="delete_scene3" alt="児玉さんの写真" style="position:absolute;top:110px;left:550px;">
+            </div>
+            <div>
+                <img src="img/teropu.png" class="delete_scene3" alt="テロップの画像" style="width:600px;position:absolute;top:370px;left:350px;">
+            </div>
+            <div style="position:fixed;bottom:30px;right:540px;">
+            <a href="#" class="scene3_1_btn btn">児玉さんの試験に挑む</a>
+            </div>            
+            <div style="position:fixed;bottom:30px;right:540px;">
+            <a href="#" class="scene3_2_btn btn">好きな手を選ぶ</a>
+            </div>            
+            <p class="kodama_speak1 kodama_speak" style="font-size:24px;position:absolute;top:410px;left:390px;">ジーズの試験は「運」で決まる。</p>
+            <p class="kodama_speak2 kodama_speak delete_scene3" style="font-size:24px;position:absolute;top:410px;left:390px;">好きな手を選びなさい。</p>
+            <audio id="scene3_se" source src="se/2_23_AM.mp3"></audio>
+            <div class="scene3_janken">
+                <img class="cho_btn3" src="img/cho.png" alt="チョキ" style="cursor:pointer">
+                <img class="par_btn3" src="img/par.png" alt="パー" style="cursor:pointer">
+                <img class="gu_btn3" src="img/gu.png" alt="グー" style="cursor:pointer">
+            </div>
+        </div>
+
+        <!-- シーン4（合格） -->
+        <div id="scene4" class="scene4_bg_img" style="width: 1280px;x;height:518px;">
+            <div>
+                <img src="img/yamazaki_teacher.png" class="yamazaki_img" alt="山崎学校長の写真" style="width:270px;position:absolute;top:110px;left:550px;">
+            </div>
+            <div>
+                <img src="img/teropu.png" alt="テロップの画像" style="width:600px;position:absolute;top:370px;left:350px;">
+            </div>
+            <p class="yamazaki_speak1 yamazaki_speak" style="font-size:24px;position:absolute;top:410px;left:390px;">合格だよ、おめでとう！さて…</p>
+            <p class="yamazaki_speak2 yamazaki_speak" style="font-size:24px;position:absolute;top:410px;left:390px;">これから6か月間ここから出られると思うな</p>
+            <audio id="scene4_se" source src="se/coldfish.mp3"></audio>
+        </div>
+
+        <!-- オーバーレイ（不合格） -->
+        <div id="full-overlay">
+            <div class="inner">
+            <p>不合格だ。財布だけ置いて帰りなさい。</p>
+            </div>
+        </div>
+
+        <!-- オーバーレイ（合格） -->
+        <div id="full-overlay2">
+            <div class="inner">
+            <p>合格です。今から6か月間<br>ここで暮らして下さい。</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+    </footer>
+
+    <script>
+        // シーン1（タイトル）
+        // シーン1から2への遷移
+        $(function() {
+            // 非表示に設定
+            $(".scene1_btn").click(function() {
+            $("#scene1").css("display", "none");
+            $('#scene2_se').get(0).play();
+            });
+            // 表示に設定
+            $(".scene1_btn").click(function() {
+            $("#scene2").css({"display":"block"});
+            });
+        });
+
+
+
+        // シーン2（世界を変えるギ―クになろう）  
+        // テキストをタイプライター風に表示 (scene1_btnを押したとき)
+        $(function(){
+            var setElm = $('.change_world_geek'),
+            delaySpeed = 200,
+            fadeSpeed = 0;
+            setText = setElm.html();
+            setElm.css({visibility:'visible'}).children().addBack().contents().each(function(){
+                var elmThis = $(this);
+                if (this.nodeType == 3) {
+                    var $this = $(this);
+                    $this.replaceWith($this.text().replace(/(\S)/g, '<span class="textSplitLoad">$&</span>'));
+                }
+            });
+            $('#scene2_se_play').click(function(){
+                splitLength = $('.textSplitLoad').length;
+                setElm.find('.textSplitLoad').each(function(i){
+                    splitThis = $(this);
+                    splitTxt = splitThis.text();
+                    splitThis.delay(i*(delaySpeed)).css({display:'inline-block',opacity:'0'}).animate({opacity:'1'},fadeSpeed);
+                });
+                setTimeout(function(){
+                    setElm.html(setText);
+                },splitLength*delaySpeed+fadeSpeed);
+            });
+        });
+        // シーン2から3への遷移
+        $(function() {
+            // シーン2を非表示に設定(scene2のse停止、scene3の音楽起動)
+            $(".scene2_btn").click(function() {
+            $("#scene2").css("display", "none");
+            $('#scene2_se').get(0).pause();
+            $('#scene3_se').get(0).play();
+            });
+            // シーン3を表示に設定(2秒でフェードイン)
+            $(".scene2_btn").click(function() {
+                $("#scene3").fadeIn(2000,function(){
+                    $("#scene3").css("display", "block");
+                });
+                $(".scene3_janken").css("display", "none");
+            });
+        });
+
+
+
+        // シーン3（第一戦）
+        // 児玉さんが順に話す
+        $(".scene3_1_btn").on("click",function(){
+            $.when(
+                $(".scene3_1_btn").css("display", "none"),
+                $(".kodama_speak1").fadeIn(3000,function(){
+                    $(".kodama_speak1").css("display", "block");
+                })
+            ).done(function(){
+                $(".kodama_speak1").css("display", "none");
+                $(".kodama_speak2").fadeIn(3000,function(){
+                    $(".kodama_speak2").css("display", "block");
+                });
+                $(".scene3_2_btn").delay(3000).queue(function(){
+                    $(".scene3_2_btn").css("display", "block");
+                });
+            });
+        });
+
+        // scene3_2_btnをクリックしたらじゃんけん開始
+        $(".scene3_2_btn").on("click",function(){
+            $.when(
+                $(".delete_scene3").css("display", "none")
+            ).done(function(){
+                $(".scene3_2_btn").css("display", "none");
+                $(".scene3_janken").fadeIn(2000,function(){
+                    $(".scene3_janken").css({"display":"block","display":"flex","justify-content":"space-around","padding-top":"150px"});
+                });
+            });
+        });
+
+        // シーン3のじゃんけん関数
+        // 乱数を作成
+        const r = Math.ceil(Math.random()*3);
+        // グーを選んだ特の挙動
+        $('.gu_btn3').on('click', function(){
+        // if分岐処理
+            if(r==1){
+                $("#full-overlay").fadeIn();
+                setTimeout(function(){
+                    location.reload();
+                }, 3000);
+            }
+            if(r==2){
+                $("#scene3").css("display", "none");
+                $('#scene3_se').get(0).pause();
+                $('#scene4_se').get(0).play();
+                $(".yamazaki_speak1").css("display", "block");
+                // シーン4を表示に設定(2秒でフェードイン)
+                $("#scene4").fadeIn(2000,function(){
+                    $("#scene4").css("display", "block");
+                });
+                setTimeout(function(){
+                    $(".yamazaki_speak1").css("display", "none");
+                    $(".yamazaki_speak2").fadeIn(3000,function(){
+                        $(".yamazaki_speak2").css("display", "block");
+                    });
+                    setTimeout(function(){
+                        $("#full-overlay2").fadeIn();
+                    },4000);
+                },4000);
+            }
+            if(r==3){
+                $("#full-overlay").fadeIn();
+                setTimeout(function(){
+                    location.reload();
+                }, 3000);
+            }
+        });
+
+        // パーを選んだ特の挙動
+        $('.par_btn3').on('click', function(){
+            // if分岐処理
+            if(r==1){
+                $("#scene3").css("display", "none");
+                $('#scene3_se').get(0).pause();
+                $('#scene4_se').get(0).play();
+                $(".yamazaki_speak1").css("display", "block");
+                // シーン4を表示に設定(2秒でフェードイン)
+                $("#scene4").fadeIn(2000,function(){
+                    $("#scene4").css("display", "block");
+                });
+                setTimeout(function(){
+                    $(".yamazaki_speak1").css("display", "none");
+                    $(".yamazaki_speak2").fadeIn(3000,function(){
+                        $(".yamazaki_speak2").css("display", "block");
+                    });
+                    setTimeout(function(){
+                        $("#full-overlay2").fadeIn();
+                    },4000);
+                },4000);
+            }
+            if(r==2){
+                $("#full-overlay").fadeIn();
+                setTimeout(function(){
+                    location.reload();
+                }, 3000);
+            }
+            if(r==3){                
+                $("#full-overlay").fadeIn();
+                setTimeout(function(){
+                    location.reload();
+                }, 3000);
+            }
+        });
+
+        // チョキを選んだ特の挙動
+        $('.cho_btn3').on('click', function(){
+            // if分岐処理
+            if(r==1){
+                $("#full-overlay").fadeIn();
+                setTimeout(function(){
+                    location.reload();
+                }, 2000);
+            }
+            if(r==2){
+                $("#full-overlay").fadeIn();
+                setTimeout(function(){
+                    location.reload();
+                }, 3000);
+            }
+            if(r==3){
+                $("#scene3").css("display", "none");
+                $('#scene3_se').get(0).pause();
+                $('#scene4_se').get(0).play();
+                $(".yamazaki_speak1").css("display", "block");
+                // シーン4を表示に設定(2秒でフェードイン)
+                $("#scene4").fadeIn(2000,function(){
+                    $("#scene4").css("display", "block");
+                });
+                setTimeout(function(){
+                    $(".yamazaki_speak1").css("display", "none");
+                    $(".yamazaki_speak2").fadeIn(3000,function(){
+                        $(".yamazaki_speak2").css("display", "block");
+                    });
+                    setTimeout(function(){
+                        $("#full-overlay2").fadeIn();
+                    },4000);
+                },4000);
+            }
+        });
+        // じゃんけん関数（ここまで）
+
+    </script>
+</body>
+
+</html>

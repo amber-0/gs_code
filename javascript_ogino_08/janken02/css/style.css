@@ -1,0 +1,135 @@
+body{
+    background-color: #00A7EA;
+}
+
+.janken{
+    display: none;
+}
+
+/* 共通するパーツ */
+
+/* ボタンclass="btn"で指定 */
+.btn_wrapper{
+    position: fixed;
+    bottom: 70px;
+    right: 540px;
+}
+
+.btn{    
+    color: #FFF;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 45px;
+    width: 200px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    outline: 2px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
+    text-align: center;
+}
+
+.btn:hover{
+    border-color: #FFF;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: transparent;
+    outline-offset: 12px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+
+/* シーン2 */
+#scene2{
+    display: none;
+}
+
+
+/* シーン3 */
+#scene3{
+    display: none;
+}
+
+.kodama_speak{
+    display: none;
+}
+
+/* シーン3の背景 */
+.scene3_bg_img{
+    background-image: url(../img/gsakademy01.png);
+    background-size: cover;
+}
+
+.scene3_2_btn{
+    display: none;
+}
+
+.scene3_janken{
+    display:flex;
+    justify-content:space-around;
+    padding-top: 150px;
+}
+
+
+/* シーン4 */
+#scene4{
+    display: none;
+}
+
+.scene4_bg_img{
+    background-image: url(../img/gsakademy02.png);
+    background-size: cover;
+}
+
+.yamazaki_speak{
+    display: none;
+}
+
+
+/* オーバーレイ（不合格） */
+#full-overlay{
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(255, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+#full-overlay .inner{
+    position: fixed;
+    left: 50%; top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:Yu Mincho;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+/* オーバーレイ（合格） */
+#full-overlay2{
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(255, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+#full-overlay2 .inner{
+    position: fixed;
+    left: 50%; top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:Yu Mincho;
+    font-weight: bold;
+    font-size: 60px;
+}

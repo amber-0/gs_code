@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/sample.css">
+    <title>じゃんけん</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>じゃんけん</h1>
+        <h2>勝てば1点、負ければ0点</h2>
+    </header>
+
+    <main>
+        <ul>
+            <li id="gu_btn">グー</li>
+            <li id="cho_btn">チョキ</li>
+            <li id="par_btn">パー</li>
+        </ul>
+        <div>コンピュータの出した手は？「<span id="pc_hands">なに？</span>」</div>
+        <div id="judgment">勝ち</div>
+    </main>
+
+    <footer>
+        <p>お前の点数は：<span id="your_score"></span></p>
+    </footer>
+
+    <script>
+        // 変数を定義
+        let computer = '';
+        let result = '';
+
+        // 乱数を作成
+        const r = Math.ceil(Math.random()*3);
+
+        // グーを選んだ特の挙動
+        $('#gu_btn').on('click', function(){
+        // if分岐処理
+        if(r==1){
+            computer = '<img src="/img/gu.png">';
+            result = 'あいこです'
+        }
+        if(r==2){
+            computer = '<img src="/img/cho.png">';
+            result = 'あなたの勝ちです'
+        }
+        if(r==3){
+            computer = '<img src="/img/par.png">';
+            result = 'あなたの負けです'
+        }
+        // 表示処理
+        $('#pc_hands').html(computer);
+        $('#judgment').html(result);
+});
+
+
+        // パーを選んだ特の挙動
+        $('#par_btn').on('click', function(){
+        // 2.if分岐処理
+        let computer = '';
+        let result = '';
+        if(r==1){
+            computer = '<img src="/img/gu.png">';
+            result = 'あなたの勝ちです'
+        }
+        if(r==2){
+            computer = '<img src="/img/cho.png">';
+            result = 'あなたの負けです'
+        }
+        if(r==3){
+            computer = '<img src="/img/par.png">';
+            result = 'あいこです'
+        }
+
+        // 3.表示処理
+        $('#pc_hands').html(computer);
+        $('#judgment').html(result);
+});
+
+
+        // チョキを選んだ特の挙動
+        $('#cho_btn').on('click', function(){
+        // 1.乱数(1～3)
+        const r = Math.ceil(Math.random()*3);
+
+        // 2.if分岐処理
+        let computer = '';
+        let result = '';
+        if(r==1){
+            computer = '<img src="/img/gu.png">';
+            result = 'あなたの負けです'
+        }
+        if(r==2){
+            computer = '<img src="/img/cho.png">';
+            result = 'あいこです'
+        }
+        if(r==3){
+            computer = '<img src="/img/par.png">';
+            result = 'あなたの勝ちです'
+        }
+
+        // 3.表示処理
+        $('#pc_hands').html(computer);
+        $('#judgment').html(result);
+});
+   
+
+
+   
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+
+/* --------------------common-------------------- */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  color: hsl(0, 0%, 0%);
+  font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+h1 span{
+    position: relative;
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+h1 span::before, h1 span::after{
+    position: absolute;
+    top: 50%;
+    content: '';
+    width: 4.5em;
+    height: 1px;
+    background-color: black;
+}
+
+h1 span::before {
+  left: 100%;
+}
+
+h1 span::after {
+  right: 100%;
+}
+
+h2{
+  font-size: 2.0rem;
+  border-left: 5px solid #6e56b4;
+  padding-left: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.button-perple{
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  margin: auto;
+  background-color: #6e56b4;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-perple:hover{
+  opacity: 0.5;
+}
+
+.width_style{
+  max-width: 960px;
+}
+
+
+/* --------------------header-------------------- */
+.header{
+  width: 1140px;
+  padding: 10px;
+  margin: auto;
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.header_img_logo{
+  width: 190px;
+  height: 40px;
+}
+
+.header_img_logo:hover{
+  opacity: 0.5;
+}
+
+.header_content{
+  display: flex;
+  margin-left: 200px;
+}
+
+.header_title_en{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 40px;
+}
+
+.header_title_en:hover{
+  opacity: 0.6;
+}
+
+.header_title_en > a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+/* --------------------main-------------------- */
+/* jumbotron以外は幅960px */
+
+/* jumbotronのスライドショー */
+.jumbotron{
+	position: relative;
+	width: 1140px;
+  margin: auto;
+}
+
+.jumbotron_img{
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	animation: change-img-anim 15s infinite;
+}
+
+.jumbotron_img:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.jumbotron_img:nth-of-type(2) {
+	animation-delay: 5s;
+}
+.jumbotron_img:nth-of-type(3) {
+	animation-delay: 10s;
+}
+
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	10%{ opacity: 1;}
+	90%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
+
+/* --------------------welcome-------------------- */
+.welcome{
+  padding-top: 630px;
+}
+
+.welcome_welcome{
+  margin-bottom: 60px;
+}
+
+.welcome_flex1{
+  display: flex;
+  background-color: rgb(194, 119, 230);
+  padding: 50px 0;
+  justify-content: center;
+}
+
+.welcome_hello{
+  line-height: 2;
+  text-align: center;
+  font-size: 2.2rem;
+  width: 500px;
+} 
+
+.welcome_message{
+  width: 500px;
+  line-height: 2;
+}
+
+.kohe_shimokawa2{
+  width: 150px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.welcome_button{
+  margin-top: 70px;
+  margin-bottom: 70px;  
+}
+
+.welcome_button > a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* --------------------研究概要-------------------- */
+.reserch_about_1{
+  display: flex;
+  margin: 0 100px;
+}
+
+.reserch_about1_text{
+  line-height: 3;
+  margin: auto 100px;
+}
+
+.reserch_img1{
+  width: 400px;
+}
+
+.reserch_about_2{
+  display: flex;
+  margin: 0 100px;
+}
+
+.reserch_img2{
+  width: 450px;
+}
+
+.reserch_about2_text{
+  line-height: 3;
+  margin: auto 50px;
+}
+
+.reserch_about_3{
+  display: flex;
+  margin: 0 100px;
+}
+
+.reserch_about3_text{
+  line-height: 3;
+  margin: auto 50px;
+}
+
+.reserch_img3{
+  width: 600px;
+}
+
+.button-perple > a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* --------------------footer-------------------- */
+.footer_layout{
+  display: block;
+  background-color: #674db6;
+  color: white;
+  max-width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 50px;
+}

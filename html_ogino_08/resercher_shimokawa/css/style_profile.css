@@ -1,0 +1,240 @@
+
+/* --------------------common-------------------- */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  color: hsl(0, 0%, 0%);
+  font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1{
+  font-size: 2.4rem;
+  border-bottom: 1px solid #7e7e7e;
+  line-height: 2;
+}
+
+h2{
+  font-size: 2.0rem;
+  border-left: 5px solid #6e56b4;
+  padding-left: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.button-perple{
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  margin: auto;
+  background-color: #6e56b4;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-yellow:hover{
+  opacity: 0.5;
+}
+
+
+/* --------------------header-------------------- */
+.header{
+  width: 1140px;
+  padding: 10px;
+  margin: auto;
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.header_img_logo{
+  width: 190px;
+  height: 40px;
+}
+
+.header_img_logo:hover{
+  opacity: 0.5;
+}
+
+.header_content{
+  display: flex;
+  margin-left: 200px;
+}
+
+.header_title_en{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 40px;
+}
+
+.header_title_en:hover{
+  opacity: 0.6;
+}
+
+.header_title_en > a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/* --------------------main-------------------- */
+/* jumbotron以外は幅960px */
+.section{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.h1_profile{
+  margin: 30px 0;
+}
+
+.section_flexbox{
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.shimokawa_name{
+  margin: auto 0;
+}
+
+.shimokawa_name_ja{
+  text-align: center;
+  line-height: 2;
+  font-size: 2.8rem;
+}
+
+.shimokawa_name_en{
+  text-align: center;
+  line-height: 2;
+
+}
+
+.profile_shimokawa_img{
+  margin: 0 50px;
+}
+
+.map_tohoku_university{
+  width: 800px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+dt{
+  width: 180px;
+  line-height: 2;
+}
+
+dd{
+  width: 500px;
+  line-height: 2;
+}
+
+.dl_syozoku{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_gakui{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_resercher_no{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_global_id{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_orcid_id{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_reserchmap_member_id{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_keireki{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_gakureki{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+.dl_syumi{
+  display: flex;
+  justify-content: center;  
+  padding: 10px 0;
+  border-top: double 2px #7e7e7e;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------footer-------------------- */
+.footer_layout{
+  display: block;
+  background-color: #674db6;
+  color: white;
+  max-width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
