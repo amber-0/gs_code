@@ -23,3 +23,10 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);
 // ２．１の流れを関数に落とし込む
 // ３．クリックするとテキストボックスが出現、文字をうっていく
 
+var img = new Image();
+img.src = 'http://www.w3.org/Icons/SVG/svg-logo-v.svg';
+img.onload = function() {
+    var c = document.getElementById('c');
+    var ctx = c.getContext('2d');
+    ctx.drawImage(img, 0, 0, 200, 200);
+}
